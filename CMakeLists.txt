@@ -18,7 +18,7 @@ set(SOURCE_FILES ${SOURCE_DIR}/imgui_draw.cpp
 set(HEADER_FILES ${SOURCE_DIR}/imconfig.h
                  ${SOURCE_DIR}/imgui_internal.h
                  ${SOURCE_DIR}/imgui.h
-                 ${SOURCE_DIR}/imstb_rect_pack.h
+                 ${SOURCE_DIR}/imstb_rectpack.h
                  ${SOURCE_DIR}/imstb_textedit.h
                  ${SOURCE_DIR}/imstb_truetype.h)
 set(EXTRA_FONTS_FILES ${EXTRA_FONTS_DIR}/Karla-Regular.ttf
