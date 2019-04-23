@@ -17,7 +17,7 @@ class IMGUIConan(ConanFile):
     exports_sources = ["CMakeLists.txt","imgui-source/*"]
 
     options = {"shared" : [True, False], "fPIC" : [True, False], "build_type": ["Release", "Debug", "RelWithDebInfo", "MinSizeRel"]}
-    default_options = "build_type=MinSizeRel",
+    default_options = "build_type=MinSizeRel", "shared=False", "fPIC=True"
 
     def config_options(self):
         if self.settings.os == 'Windows':
