@@ -14,7 +14,7 @@ class IMGUIConan(ConanFile):
     description = "Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies"
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
-    exports_sources = ["imgui-source/*"]
+    exports_sources = ["CMakeLists.txt","imgui-source/*"]
 
     options = {"shared" : [True, False], "fPIC" : [True, False], "build_type": ["Release", "Debug", "RelWithDebInfo", "MinSizeRel"]}
     default_options = "build_type=MinSizeRel",
