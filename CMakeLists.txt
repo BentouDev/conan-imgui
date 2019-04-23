@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(IMGUI CXX)
 
-include(conanbuildinfo.cmake)
-conan_basic_setup()
+# include(conanbuildinfo.cmake)
+# conan_basic_setup()
 
 set(CMAKE_VERBOSE_MAKEFILE TRUE)
 if (WIN32 AND MSVC AND BUILD_SHARED_LIBS)
@@ -33,7 +33,7 @@ add_executable(${BINARY_TO_COMPRESSED_BIN} ${EXTRA_FONTS_DIR}/binary_to_compress
 
 add_library(${PROJECT_NAME} ${SOURCE_FILES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${SOURCE_DIR})
-target_link_libraries(${PROJECT_NAME} PUBLIC ${CONAN_LIBS})
+#target_link_libraries(${PROJECT_NAME} PUBLIC ${CONAN_LIBS})
 
 install(TARGETS ${PROJECT_NAME}
         RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
