@@ -21,3 +21,6 @@ before_script:
 - docker pull bentou/ubuntu-bionic-dev
 - docker ps -a
 - mkdir bin
+env:
+  global:
+    secure: Y6SE57suYkcAJR+J8AJbOJlMy9EYQLF1K7lqVh5bL+nz+L+SUSuzQVEOzqb5J/1lLA2fb038hvHj8bFgk2cUfaZW/jwN22FM7HfSQe19lKxZWiq8+N+mDlIQLvMkOCaEnmEa9nmqNN/dT3bR8X7aD2kId9gZq2/ra1JC5jtJcVPhykli0dmekiW1Htjab9/mHUhkB/V8pP3vQt+uU3beVmscDp2cZ7/wbi5MXIxtMhriS6sr8ITbBPOqF9DC+bxMVh5W6tgf26kauKCRefdgMuIFU6Ud1secA1Qo50tPW3x5MCZ4cpBJ5iqh1PsjErug13EogENEb2+z8N4txDCRpM3lKcFci5R86ek01fqL3IQ0gLuGRwl260CZGAe9k20re/jKcb2byviglEQj5Bm5zj+iBvMoA8CoQO9VFGIwHhxc+7bhZRZ+xlyXfXs00BQidASw+UoaSRg6/rPrQQuuN/ga3E+xXPujtEciuQOIxyUD3NhN83o7JwJLSOjZg7J+a4023G3TgyEltqTmbC611kt/zG6RtqmX+4mgkMrIMq3wOphzNOA/zKSstUafzIGMCidulDm4umcFUIPjuDuLjaooNDDk6BWEBANF+LMYUO4J1NDH3F3E9XXIjsBqhvI/M2j04riptV5fXZrR52bS/BHgy+6kxIHz3HZxiDeRrYs=
