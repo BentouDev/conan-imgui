@@ -23,12 +23,6 @@ class IMGUIConan(ConanFile):
         if self.settings.os == 'Windows':
             del self.options.fPIC
 
-    def package_id(self):
-        self.info.include_build_settings()
-        self.info.settings.compiler
-        self.info.settings.arch
-        self.info.settings.build_type
-
     def configure_cmake(self):
         cmake = CMake(self)
         cmake.configure()
