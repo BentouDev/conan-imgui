@@ -1,3 +1,6 @@
 [submodule "imgui-source"]
 	path = imgui-source
 	url = https://github.com/ocornut/imgui.git
+[submodule "conan-base"]
+	path = conan-base
+	url = https://github.com/BentouDev/conan-base.git
