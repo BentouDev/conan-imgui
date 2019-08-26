@@ -2,6 +2,7 @@ environment:
   PYTHON: "C:\\Python37"
   REPOSITORY_KEY:
     secure: 3jorWUxqWjnR0X8Ye5NsAurPzickp84H2a+/ILwlRA3EQXzv+jo+kv9tvI1YKyTE
+  REPOSITORY_URL:
     secure: MpbD7FQXYeXhUYV99nILNF66c1Y+QtxKGEc+TUkXVNo=
   APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
   matrix:
